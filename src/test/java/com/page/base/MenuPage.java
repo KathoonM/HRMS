@@ -1,9 +1,6 @@
 package com.page.base;
 
 import com.data.dynamic.FakerDataFactory;
-import com.github.javafaker.Faker;
-
-import static com.data.dynamic.FakerDataFactory.faker;
 
 public class MenuPage extends CognitestPageHook {
     public FakerDataFactory dataFactory ;
