@@ -15,7 +15,7 @@
         <parameter name="Browser" value="chrome"></parameter>
         <classes>
 
-            <class name="com.cognitest.testcases.TC_referenceTestCase"/>
+            <class name="com.cognitest.testcases.TC_01"/>
         </classes>
     </test>
 

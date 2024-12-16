@@ -11,7 +11,7 @@ import com.page.base.MenuPage;
 import com.page.base.CognitestPageHook;
 
 @Listeners(TestListener.class)
-public class TC_referenceTestCase extends CognitestPageHook {
+public class TC_01 extends CognitestPageHook {
 
     @BeforeTest(groups = {"Tier1Admin", "Tier1User", "Tier2Admin", "Tier2User"})
     public void setReportValues() {
@@ -22,7 +22,7 @@ public class TC_referenceTestCase extends CognitestPageHook {
     }
 
     @Test(priority = 1, groups = {"Tier1Admin", "Tier1User", "Tier2Admin", "Tier2User"})
-    public void successfulLogin() {
+    public void Employeecreation() {
         startTestCase();
         setNode();
 
