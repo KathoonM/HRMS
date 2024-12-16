@@ -111,6 +111,7 @@ public abstract class Reporter extends DriverFactory {
     }
 
     public void reportStep(String desc, String status) {
+        System.out.println(desc+" ======>"+status);
         reportStep(desc, status, true);
     }
 
