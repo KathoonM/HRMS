@@ -2,13 +2,10 @@ package com.cognitest.testcases;
 
 import java.util.List;
 
-import com.config.ConfigurationManager;
-import com.github.javafaker.Faker;
+
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
-import com.data.dynamic.FakerDataFactory;
 import com.listener.TestListener;
 import com.page.base.MenuPage;
 import com.page.base.CognitestPageHook;
