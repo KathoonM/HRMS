@@ -37,7 +37,7 @@ public class TC_05 extends CognitestPageHook {
                 .organizationButton() // Method to click organization
                 .clickOnGeneralinformation() // Method to click general information option
                 .editToggle() // Method to click on edit toggle
-                .enterOrganizationName("tickingminds") // Method to enter the organization name
+                .enterOrganizationName("tickingminds software limited") // Method to enter the organization name
                 .updatingGeneralinformation(); // Method to update the general information
     }
 }

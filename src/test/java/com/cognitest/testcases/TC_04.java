@@ -38,10 +38,10 @@ public class TC_04 extends CognitestPageHook {
                 .clickOnJobTitle() // Method to click on job title option
                 .clickaddOnJobTitle()// Method to click on add button
                 .enterJobDescription()// method to enter job title
-                .enterJobTitle() // method to enter job description
+                .enterJobTitle("Automation tester - Playwright, Java") // method to enter job description
                 .jobTitlecreation()// method to create job title
                 .editjobtitle() // method to click on edit icon
-                .enterJobTitle() // method to modify the job title
+                .enterJobDescription()// method to modify the job title
                 .jobTitlecreation() // method to save the updation
                 .deletionjobtitle()// method to click delete button
                 .confirmDeletion();// method to delete the item

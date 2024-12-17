@@ -77,13 +77,10 @@ public class MenuPage extends CognitestPageHook {
         return this;
     }
 
-    public MenuPage enterJobTitle() {
-        String jobtitle = FakerDataFactory.getRoleName();
-        type("(//input[@class='oxd-input oxd-input--active'])[2]", jobtitle, "job title");
+    public MenuPage enterJobTitle(String jobtitle) {
+        typeWithType("(//input[@class='oxd-input oxd-input--active'])[2]", "Automation tester - Playwright, Java","jobtitle");
         return this;
     }
-    //typeWithType("(//input[@class = 'oxd-input oxd-input--active'])[2]", "Automation tester", "Jobtitle");
-    // return this;
 
     public MenuPage enterJobDescription() {
         type("//textarea[@placeholder = 'Type description here']", FakerDataFactory.getDescription(), "job description");
@@ -223,7 +220,7 @@ public class MenuPage extends CognitestPageHook {
     }
 
     public MenuPage enterOrganizationName(String organizationName) {
-        typeWithType("(//input[@class = 'oxd-input oxd-input--active'])[2]", "tickingminds", "organization Name");
+        typeWithType("(//input[@class = 'oxd-input oxd-input--active'])[2]", "tickingminds software limited", "organization Name");
         return this;
     }
 
