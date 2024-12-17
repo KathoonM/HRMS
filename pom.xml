@@ -84,6 +84,10 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>cognitest1.xml</suiteXmlFile>
+						<suiteXmlFile>cognitest2.xml</suiteXmlFile>
+						<suiteXmlFile>cognitest3.xml</suiteXmlFile>
+						<suiteXmlFile>cognitest4.xml</suiteXmlFile>
+						<suiteXmlFile>cognitest5s.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

@@ -16,7 +16,7 @@
 
         <classes>
 
-            <class name="com.cognitest.testcases.TC_referenceTestCase"/>
+            <class name="com.cognitest.testcases.TC_03"/>
 
         </classes>
     </test>
