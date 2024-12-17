@@ -5,8 +5,8 @@
     <suite-files>
                 <suite-file path="cognitest1.xml"/>
                 <suite-file path="cognitest2.xml"/>
-<!--                <suite-file path="cognitest3.xml"/>-->
-<!--                <suite-file path="cognitest4.xml"/>-->
-<!--                <suite-file path="cognitest5.xml"/>-->
+                <suite-file path="cognitest3.xml"/>
+                <suite-file path="cognitest4.xml"/>
+                <suite-file path="cognitest5.xml"/>
     </suite-files>
 </suite> <!-- cognitestSuite -->
